@@ -13,7 +13,7 @@ https://github.com/mapbox/tippecanoe
 brew install tippecanoe
 
 # run convert
-tippecanoe -e world -z 10 --no-tile-compression ./geojson_world/map.geojson
+tippecanoe -e world -z 5 --no-tile-compression ./geojson_world/map.geojson
 ```
 
 ## SOURCE
