@@ -4,6 +4,18 @@
 
 マップの置き場
 
+## geojson to pbf
+
+https://github.com/mapbox/tippecanoe
+
+```bash
+# install tippecanoe
+brew install tippecanoe
+
+# run convert
+tippecanoe -e world -z 10 --no-tile-compression ./geojson_world/map.geojson
+```
+
 ## SOURCE
 
 - https://www.naturalearthdata.com/
