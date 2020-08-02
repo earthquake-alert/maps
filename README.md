@@ -41,6 +41,7 @@ tippecanoe -e world -z 5 --no-tile-compression ./geojson_world/map.geojson
 |     water_area_japan     |    日本の湖沼データ（geojson）    |                                                              | [国土地理院 湖沼データ](https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v2_3.html)に帰属 |
 |  pbf_japan/distlict_jma  | 気象庁による日本の細分区域（pbf） | https://earthquake-alert.github.io/maps/pbf_japan/distlict_jma/{z}/{x}/{y}.pbf | [気象庁](https://www.data.jma.go.jp/developer/gis.html)に帰属 |
 |      pbf_japan/pref      |       日本の都道府県（pbf）       | https://earthquake-alert.github.io/maps/pbf_japan/pref/{z}/{x}/{y}.pbf | [weatherbox/warning-area-vt](https://github.com/weatherbox/warning-area-vt)に帰属 |
+|    pbf_japan/pref_jma    | 気象庁による日本の都道府県（pbf） | https://earthquake-alert.github.io/maps/pbf_japan/pref_jma/{z}/{x}/{y}.pbf | [気象庁](https://www.data.jma.go.jp/developer/gis.html)に帰属 |
 
 ## SOURCE
 
